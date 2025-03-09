@@ -575,7 +575,10 @@ footer {
         width: 100vw;
     }
     header {
-        width: 350px;
+        width: 320px;
+    }
+    .logo {
+        width: 90%;
     }
     ul {
         display: none;
@@ -603,7 +606,7 @@ footer {
     }
 
     .menu-icon {
-        padding-left: 200px;
+        padding-left: 60px;
         display: block;
         font-size: 24px;
         cursor: pointer;
@@ -657,7 +660,7 @@ footer {
         height: 10%;
     }
     .baner-img-bg1 {
-        left: 195px;
+        left: 170px;
         border-top-right-radius: unset;
         border-bottom-right-radius: unset;
     }
@@ -756,7 +759,7 @@ footer {
 
     .baner-img-bg1 {
         top: 50%;
-        right: -15%;
+        right: -900px;
         width: 50%;
         height: 70%;
         position: absolute;
