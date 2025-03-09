@@ -582,7 +582,7 @@ footer {
 
     }
     .nav-links {
-        display: none;
+        display: block;
         flex-direction: column;
         position: fixed; /* Menyu ekranga yopishib turadi */
         top: 50px; /* Header ostida chiqadi */
