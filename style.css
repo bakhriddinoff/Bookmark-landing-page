@@ -464,3 +464,49 @@ h1 {
     font-weight: bold;
 }
 
+/* Section 5 */
+
+.section5 {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #5266DF;
+}
+
+.section5 h2 {
+    color: white;
+}
+
+.section5 p {
+    color: white;
+    letter-spacing: 6px;
+}
+
+form {
+    display: flex;
+    align-self: center;
+    width: 30%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input {
+    width: 250px;
+    height: 40px;
+    border: unset;
+    border-radius: 10px;
+    font-weight: normal;
+}
+
+.btn5 {
+    width: 120px;
+    height: 35px;
+    border: transparent;
+    background-color: orangered;
+    font-size: 16px;
+    border-radius: 5px;
+    color: white;
+}
+
