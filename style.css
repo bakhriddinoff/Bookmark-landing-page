@@ -62,3 +62,78 @@ ul {
     color: white;
     font-size: 15px;
 }
+
+/* SECTION 1 */
+
+.section1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+}
+
+
+.heroR {
+    width: 50%;
+    position: relative;
+}
+.heroR img {
+    width: 100%;
+}
+
+.heroL {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;}
+
+h1 {
+    font-size: 35px;
+}
+
+.text2 {
+    font-size: 20px;
+    font-family:"Roboto";
+    color: #a8a6a6;
+    line-height: 1.5;
+}
+
+.btn-wrapper {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn2 {
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 15px;
+}
+
+.btn21 {
+    background-color: rgb(82, 103, 226);
+} 
+
+.btn22 {
+    color: black;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.1);
+}
+
+.spn1 {
+    position: absolute;
+    z-index: -1;
+    top: 130px;
+    left: 190px;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
+    width: 574px;
+    height: 350px;
+    background-color: rgb(71, 88, 192);
+}
+
+
