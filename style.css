@@ -1,3 +1,4 @@
+css bookmark
 *,html {
     margin: 0;
     padding: 0;
@@ -12,8 +13,6 @@ body {
     max-width: 1300px;
     margin: 0 auto; 
 }
-
-/* HEADER */
 
 header {
     width: 90vw;  
@@ -135,6 +134,7 @@ h1 {
     height: 350px;
     background-color: rgb(71, 88, 192);
 }
+
 
 /* Section 2 */ 
 .features {
@@ -295,6 +295,7 @@ h1 {
     display: flex;
 }
 
+
 /* SECTION 3 */
 
 .section3 {
@@ -372,7 +373,6 @@ h1 {
     border: transparent;
     background-color:  rgb(82, 103, 226);
 }
-
 
 /* SECTION 4 */
 
@@ -510,3 +510,292 @@ input {
     color: white;
 }
 
+/* FOOTER */
+
+footer {
+    height: 100px;
+    display: flex;
+    background-color: rgb(36, 41, 70);
+    justify-content: space-evenly;
+}
+
+.logof {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    width: 40%;
+}
+
+.logoimg {
+    width: 150px;
+    height: 30px;
+}
+
+
+.footL {
+    font-size: 18px;
+    color: rgb(211, 205, 205);
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.brr {
+    display: none;
+}
+
+.nav-links {
+    display: none;
+}
+.menu-icon {
+    display: none;
+}
+.features-blog-1-button {
+    text-decoration: unset;
+}
+
+
+
+@media (min-width: 350px) and (max-width: 430px) {
+    body {
+        width: 100vw;
+    }
+    header {
+        width: 390px;
+    }
+    ul {
+        display: none;
+
+    }
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: fixed; /* Menyu ekranga yopishib turadi */
+        top: 50px; /* Header ostida chiqadi */
+        left: 0;
+        width: 300px;
+        background: white;
+        text-align: center;
+        padding: 20px 0;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        z-index: 1000; /* Barcha elementlardan ustun turishi uchun */
+      }    
+    .nav-links.show {
+        display: flex;
+    }
+
+    .menu-icon {
+        padding-left: 200px;
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .section1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .heroL {
+        width: 100%;
+        align-items: center;
+        gap: 20px;
+    }
+    .heroR {
+        width: 100%;
+    }
+
+    .spn1 {
+        width: 305px;
+        height: 250px;
+        top: 80px;
+        left: 85px;
+    }
+    .br {
+        display: block;
+    }
+    .yozuv {
+        text-align: center;
+    }
+    .features {
+        width: 1000px;
+    }
+    .section3 {
+        height: 1800px;
+        padding-top: unset;
+    }
+    .cards2 {
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cards-item1 {
+        height: 400px;
+    }
+    .wrapper3 {
+        height: 10%;
+    }
+    .baner-img-bg1 {
+        left: 195px;
+        border-top-right-radius: unset;
+        border-bottom-right-radius: unset;
+    }
+    .section4 {
+        height: 800px;
+    }
+    form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    input {
+        border-radius: 5px;
+    }
+    .btn5 {
+        width: 250px;
+    }
+    .social {
+        width: 100%;
+        justify-content: center;
+    }
+    .logof {
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .logoimg {
+        width: 100px;
+        height: 20px;
+    }
+    .footL {
+        font-size: 12px;
+    }
+    .socialImg {
+        width: 20px;
+        height: 20px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    h3 {
+        font-size: 18px !important;
+    }
+    h1, .heading {
+        font-size: 25px;
+    }
+    .text2 {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:1150px) {
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .features {
+        padding-top: 3rem;
+        flex-direction: column;
+    }
+    .feature-item-in-1{
+        width: 80%;
+    }
+    .features-blog-1{
+        flex-direction: column;
+    }
+    .features-blog-1-img {
+        width: 100%;
+    }
+
+    .features-blog-1-img img {
+        width: 100%;
+    }
+
+    .features-blog-1-lable {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .features-blog-1-lable {
+        text-align: center;
+    }
+
+    .features-blog-1-button {
+        justify-content: center;
+    }
+
+    .baner-img-bg1 {
+        top: 50%;
+        right: -15%;
+        width: 50%;
+        height: 70%;
+        position: absolute;
+        background-color: #5266DF;
+        border-top-left-radius: 40%;
+        border-bottom-left-radius: 45%;
+        z-index: -1;
+    }
+}
+@media only screen and (max-width:780px) {
+    .features{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+    .features-blog{
+        padding-left: 0;
+        align-items: center;
+    }
+    .features-blog-1-img{
+        width: 100%;
+    }
+    .features-blog-1-img img{
+        width: 100%;
+    }
+    .features-lable-2{
+        width: 70%;
+    }
+    .features-blog-1-lable{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+@media only screen and (max-width:633px) {
+    .features-items-1-lable{
+        font-size: 0.7rem;
+    }
+    .features-items-1{
+        padding-bottom: 0rem;
+        height: 40px
+    }
+}
+@media only screen and (max-width:415px) {
+    .features-items-1-lable{
+        font-size: 9px;
+    }
+}
