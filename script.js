@@ -41,3 +41,15 @@ page3.addEventListener('click', function() {
     page1.style.borderBottom = "1px solid #a8a6a6";
 });
 
+
+const faqs = document.querySelectorAll(".faq");
+
+faqs.forEach(faq => {
+    faq.addEventListener("click", () => {
+        faq.classList.toggle('active');
+    })
+})
+
+function toggleMenu() {
+    document.querySelector(".nav-links").classList.toggle("show");
+  }
