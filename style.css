@@ -575,7 +575,7 @@ footer {
         width: 100vw;
     }
     header {
-        width: 390px;
+        width: 350px;
     }
     ul {
         display: none;
@@ -622,14 +622,14 @@ footer {
         gap: 20px;
     }
     .heroR {
-        width: 100%;
+        width: 80%;
     }
 
     .spn1 {
         width: 305px;
         height: 250px;
         top: 80px;
-        left: 85px;
+        left: 46px;
     }
     .br {
         display: block;
