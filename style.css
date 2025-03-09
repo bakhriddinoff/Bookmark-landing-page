@@ -1,0 +1,64 @@
+*,html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+body {
+    font-family:"Roboto";
+}
+
+.wrapper {
+    max-width: 1300px;
+    margin: 0 auto; 
+}
+
+/* HEADER */
+
+header {
+    width: 90vw;  
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    justify-content: flex-end;
+}
+
+.logo {
+    width:60%;
+}
+
+nav {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav {
+    display: none;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+.text1 {
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(65, 64, 64);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(237, 83, 84);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+}
